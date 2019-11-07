@@ -6,11 +6,13 @@
 
 2.	Gunakan **fungsi random()** yang dapat diimport terlebih dahulu. Fungsi ini untuk menampilkan bilangan random, dimana n adalah nilai acak yang lebih kecil dari 0,5.
 
-     ![Capture](https://user-images.githubusercontent.com/57028466/68366825-d6462780-00f9-11ea-8d23-1011f69e36dd.PNG)
+3.   Jika ingin menentukan batas bilangan gunakan **fungsi uniform(x,y)** yaitu untuk menampilkan bilangan float random dengan x itu batas awal dan y itu batas akhir. (Misal : batas awal 0 dan batas akhir 0.5)
 
-3.	Setelah input nilai, maka akan  muncul data nilai random dalam bentuk float. Berikut hasilnya:
+      ![2019-11-07 (3)](https://user-images.githubusercontent.com/57028466/68401846-0adcd200-0140-11ea-90f0-86319cfd11d3.png)
 
-     ![Capture01](https://user-images.githubusercontent.com/57028466/68366849-e8c06100-00f9-11ea-8706-26a343c79021.PNG)
+4.	Setelah input nilai, maka akan  muncul data nilai random dalam bentuk float. Berikut hasilnya:
+
+      ![2019-11-07 (4)](https://user-images.githubusercontent.com/57028466/68401901-221bbf80-0140-11ea-8d30-12da15dbe73e.png)
 
 **Penjelasan Latihan 2**
 
@@ -28,6 +30,8 @@
 
 **Penjelasan Program 1**
 
+**Menentukan Jumlah Laba**
+
 ***Misal:***
 
 - Seorang pengusaha dengan modal awal Rp 100jt menginvestasikan uang tersebut. Pada bulan ke-1 dan ke-2 belum mendapatkan laba, pada
@@ -36,7 +40,7 @@
   
 ***Langkah-langkah:***
 
-1.	Input modal awal pengusaha sebesar 100.000.000.
+1.	Input modal awal pengusaha sebesar Rp 100.000.000,-.
 
 2.	Untuk menghitung laba perbulan kalikan modal awal dengan presentase laba. Pada bulan ke-1 dan ke-2 tidak mendapat laba, jadi hanya diisi 0(nol).
 
